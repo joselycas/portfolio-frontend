@@ -1,1 +1,1 @@
-import Form from "./js/components/Form";
+import Form from "./components/Form";
