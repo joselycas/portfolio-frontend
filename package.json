@@ -1,0 +1,25 @@
+{
+  "name": "portfolio-frontend",
+  "version": "1.0.0",
+  "description": "a portfolio using react and js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joselycas/portfolio-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joselycas/portfolio-frontend/issues"
+  },
+  "homepage": "https://github.com/joselycas/portfolio-frontend#readme",
+  "devDependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
+}
