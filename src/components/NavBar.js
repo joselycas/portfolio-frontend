@@ -11,9 +11,9 @@ const NavBar = () => {
      <>
     <AppBar position="static">
     <Tabs >
-      <Tab label="Item One" />
-      <Tab label="Item Two" />
-      <Tab label="Item Three" />
+      <Tab label="Home" />
+      <Tab label="Projects" />
+      <Tab label="Contact" />
     </Tabs>
   </AppBar>
   </>
