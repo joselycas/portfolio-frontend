@@ -20,6 +20,12 @@ module.exports = {
       }
     ]
   },
+  loaders: [
+    {
+      test: /\.(png|jpg)$/,
+      loader: 'url?limit=25000'
+    }
+  ],
   plugins: [
     new HtmlWebPackPlugin({
       template: "./src/index.html",
