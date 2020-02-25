@@ -10,10 +10,10 @@ const NavBar = () => {
  return(
      <>
     <AppBar position="static">
-    <Tabs >
-      <Tab label="Home" />
-      <Tab label="Projects" />
-      <Tab label="Contact" />
+    <Tabs value="0" >
+      <Tab label="Home" value="0"/>
+      <Tab label="Projects" value="0"/>
+      <Tab label="Contact" value="0"/>
     </Tabs>
   </AppBar>
   </>
