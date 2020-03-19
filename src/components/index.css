@@ -1,10 +1,9 @@
 .grid-container {
     display: grid;
-    background-color: blueviolet;
+    background-color: lightgrey;
     }
 
   .headerImage {
-    display: block;
-    width: 230px;
-    height: 95px;
+    width: 100%;
+    height: auto;
   }

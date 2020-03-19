@@ -1,9 +1,16 @@
-const HtmlWebPackPlugin = require("html-webpack-plugin");
-var path = require('path');
+var path = require('path')
 
 module.exports = {
+  entry: './src/index.js',
+  output: {
+    path: path.resolve(__dirname, "dist"),
+    filename: "index.js",
+    publicPath: '/dist/'
+  },
+  devServer: {
+    contentBase: path.join(__dirname, 'public')
+  },
   module: {
-   
     rules: [
       {
         test: /\.(js|jsx)$/,
@@ -16,14 +23,14 @@ module.exports = {
         test: /\.css$/i,
         use: [ 'style-loader', 'css-loader' ],
       },
-      {
-        test: /\.html$/,
-        use: [
-          {
-            loader: "html-loader"
-          }
-        ]
-      },
+      // {
+      //   test: /\.html$/,
+      //   use: [
+      //     {
+      //       loader: "html-loader"
+      //     }
+      //   ]
+      // },
     ],
   },
 };

@@ -12,7 +12,7 @@ const Home = () => {
     <div>
       <h1>FULL-STACK WEB DEVELOPER AND DIGITAL STRATEGIST.</h1>
       <NavBar />
-      <img src="../public/assets/header.png" alt="Header" class="headerImage" width="800px" height="250px" />
+      <img src="assets/header.png" alt="Header" className="headerImage" />
       <SubSection /> 
       <Footer/>
     </div>
@@ -20,7 +20,3 @@ const Home = () => {
 }
 
 export default Home;
-
-
-const wrapper = document.getElementById("root");
-wrapper ? ReactDOM.render(<Home />, wrapper) : false;
