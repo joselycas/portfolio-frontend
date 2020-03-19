@@ -1,3 +1,10 @@
-.container {
-    display: grid | inline-grid;
+.grid-container {
+    display: grid;
+    background-color: blueviolet;
+    }
+
+  .headerImage {
+    display: block;
+    width: 230px;
+    height: 95px;
   }

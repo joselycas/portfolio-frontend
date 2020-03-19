@@ -6,12 +6,13 @@ import Footer from './Footer.js';
 
 
 
+
 const Home = () => {
   return(
     <div>
       <h1>FULL-STACK WEB DEVELOPER AND DIGITAL STRATEGIST.</h1>
       <NavBar />
-      <img src="../public/assets/header.png" alt="Header" />
+      <img src="../public/assets/header.png" alt="Header" class="headerImage" width="800px" height="250px" />
       <SubSection /> 
       <Footer/>
     </div>
