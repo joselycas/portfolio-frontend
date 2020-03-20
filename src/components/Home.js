@@ -10,7 +10,7 @@ import Footer from './Footer.js';
 const Home = () => {
   return(
     <div>
-      <h1>FULL-STACK WEB DEVELOPER AND DIGITAL STRATEGIST.</h1>
+       <img src="assets/logo.png" alt="Header" className="logo" />
       <NavBar />
       <img src="assets/header.png" alt="Header" className="headerImage" />
       <SubSection /> 
