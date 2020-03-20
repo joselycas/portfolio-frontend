@@ -8,3 +8,13 @@
     width: 100%;
     height: auto;
   }
+
+  .logo {
+    width: 5%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .navBar {
+    width: 100%;
+  }
