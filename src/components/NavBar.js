@@ -9,9 +9,9 @@ const NavBar = () => {
    <div>
       <ul>
         <li><a href="default.asp" >Home</a></li>
-        <li><a href="news.asp">Bio</a></li>
-        <li><a href="contact.asp">Projects</a></li>
-        <li><a href="about.asp">Contact</a></li>
+        <li><a href="https://joscastro.com/about">Bio</a></li>
+        <li><a href="https://joscastro.com/projects">Projects</a></li>
+        <li><a href="https://joscastro.com/contact">Contact</a></li>
       </ul>
   </div>
  )

@@ -5,7 +5,7 @@ import "./index.css";
 const SubSection = () => {
   return(
     <div>
-      <h1>Areas of Focus</h1>
+      <h1><center>Areas of Focus</center></h1>
       <div className="grid-container">
         <div className="grid-item">Ruby/Rails</div>
         <div className="grid-item">Javascript/React</div>
