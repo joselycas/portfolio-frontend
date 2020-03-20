@@ -17,11 +17,11 @@ const SubSection = () => {
       </div>
       <h1><center>Previous Clients and Employers</center></h1>
       <div className="row">
-        <div className="column">American Standard</div>
-        <div className="column">Nvent</div>
-        <div className="column">Rakuten</div>
-        <div className="column">FitLife</div>
-        <div className="column">TNE Lab</div>
+      <img src="assets/as.png" alt="Header" className="partnerLogo" />
+      <img src="assets/nvent.png" alt="Header" className="partnerLogo" />
+      <img src="assets/rakuten.png" alt="Header" className="partnerLogo" />
+      <img src="assets/tne.png" alt="Header" className="partnerLogo" />
+      <img src="assets/fitlife.png" alt="Header" className="partnerLogo" />
       </div>
     </div>
   )
