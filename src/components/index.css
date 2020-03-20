@@ -1,6 +1,18 @@
+body {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+
 .grid-container {
-    display: grid;
+    display: inline-grid;
     background-color: lightgrey;
+    padding: 15px;
+    border: 1px solid red;
+    
  
     }
 
@@ -15,6 +27,18 @@
     padding: 10px;
   }
 
-  .navBar {
-    width: 100%;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
   }
+
+  li {
+    float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+}
