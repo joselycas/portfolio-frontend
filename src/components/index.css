@@ -8,3 +8,9 @@
     width: 100%;
     height: auto;
   }
+
+  .navBar {
+    width: 100%;
+    height: auto;
+    background-color: lightsalmon;
+  }
