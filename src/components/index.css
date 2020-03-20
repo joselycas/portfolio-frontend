@@ -3,26 +3,31 @@ body {
   font-family: "Times New Roman", Times, serif;
 }
 
+.logo {
+  width: 5%;
+  height: auto;
+  padding: 10px;
+}
+
+.headerImage {
+  width: 100%;
+  height: auto;
+}
+
 h1 {
   font-size: 40px;
 }
+/* subSection */
+.row {
 
-.grid-container {
-    display: inline-grid;
-    background-color: lightgrey;
-    padding: 15px;
-    border: 1px solid red;
+  display: flex;
+
     }
 
-  .headerImage {
-    width: 100%;
-    height: auto;
-  }
-
-  .logo {
-    width: 5%;
-    height: auto;
-    padding: 10px;
+  .column {
+ 
+    width: 33.33%;
+    padding: 5px;
   }
 
   ul {
