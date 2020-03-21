@@ -15,7 +15,11 @@ body {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 18px;
 }
 /* subSection */
 .row {
