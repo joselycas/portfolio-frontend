@@ -16,7 +16,7 @@ const SubSection = () => {
         <div className="column"><p>Marketing Campaign and Web Design</p><p>Eight years of experience helping companies get their products out in the market through strategically planned digital channels. </p></div>
       </div>
       <h1><center>Previous Clients and Employers</center></h1>
-      <div className="row">
+      <div className="rowLogo">
       <img src="assets/as.png" alt="Header" className="partnerLogo" />
       <img src="assets/nvent.png" alt="Header" className="partnerLogo" />
       <img src="assets/rakuten.png" alt="Header" className="partnerLogo" />
