@@ -1,3 +1,7 @@
+
+
+
+
 body {
   color: black;
   font-family: "Times New Roman", Times, serif;
@@ -45,19 +49,30 @@ h2 {
   }
 
   li {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Times New Roman", Times, serif;
     float: left;
     font-weight: bold;
     font-size: 18px;
 }
 
 a {
+  text-decoration-color:black;
   display: block;
   padding: 8px;
+}
+
+a:active {
+  text-decoration-color: pink
 }
 
 .partnerLogo {
   width: 20%;
   height: auto;
   padding: 10px;
+}
+
+.footer {
+  position: relative;
+  background-color: whitesmoke;
+  text-align: center;
 }
