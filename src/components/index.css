@@ -36,24 +36,24 @@ h2 {
   display: flex;
     }
 
-  .column {
-    width: 33.33%;
-    padding: 5px;
-  }
+.column {
+  width: 33.33%;
+  padding: 5px;
+}
 
   /* nav */
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    float: right;
-  }
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
 
-  nav li {
-    font-family: "Times New Roman", Times, serif;
-    float: left;
-    font-weight: bold;
-    font-size: 18px;
+nav li {
+  font-family: "Times New Roman", Times, serif;
+  float: left;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 nav a {
