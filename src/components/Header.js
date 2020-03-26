@@ -1,9 +1,9 @@
 import React from "react";
 import "./index.css"
 
-const Footer = () => {
+const Header = () => {
   return(
-    <div className="footer">
+    <div className="header">
       <p>Copyright © 2019 Joscastro - All Rights Reserved.</p>
     </div>
   )

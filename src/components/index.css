@@ -73,7 +73,8 @@ nav a:active {
 }
 
 .footer {
-  font-size: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
   position: relative;
   background-color: whitesmoke;
   text-align: center;
