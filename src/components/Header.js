@@ -3,9 +3,17 @@ import "./index.css"
 
 const Header = () => {
   return(
-    <div className="header">
-      <p>Copyright © 2019 Joscastro - All Rights Reserved.</p>
-    </div>
+      <>
+    <h1><center>Areas of Focus</center></h1>
+    <div className="row">
+      <div className="column">
+        <h2>CSS/Bootstrap</h2> <p>The style of my projects are either manually designed or by using bootstrap. </p>
+      </div>
+      <div className="column">
+        <h2>Marketing Campaign and Web Design</h2><p>Eight years of experience helping companies get their products out in the market through strategically planned digital channels. </p>
+      </div>
+ </div>
+ </>
   )
 }
 
