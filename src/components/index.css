@@ -1,6 +1,7 @@
+/* repsonsive rules */
+@media screen and (max-width: 700px) {
 
-
-
+}
 
 body {
   color: black;
@@ -41,27 +42,27 @@ h2 {
   }
 
   /* nav */
-  ul {
+  nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     float: right;
   }
 
-  li {
+  nav li {
     font-family: "Times New Roman", Times, serif;
     float: left;
     font-weight: bold;
     font-size: 18px;
 }
 
-a {
+nav a {
   text-decoration-color:black;
   display: block;
   padding: 8px;
 }
 
-a:active {
+nav a:active {
   text-decoration-color: pink
 }
 
@@ -72,7 +73,9 @@ a:active {
 }
 
 .footer {
+  font-size: 10px;
   position: relative;
   background-color: whitesmoke;
   text-align: center;
+  padding: 20px 20px;
 }
