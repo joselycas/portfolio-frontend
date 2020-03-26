@@ -3,17 +3,17 @@ import "./index.css"
 
 const Header = () => {
   return(
-      <>
-    <h1><center>Areas of Focus</center></h1>
+    <Header>
     <div className="row">
-      <div className="column">
-        <h2>CSS/Bootstrap</h2> <p>The style of my projects are either manually designed or by using bootstrap. </p>
-      </div>
-      <div className="column">
-        <h2>Marketing Campaign and Web Design</h2><p>Eight years of experience helping companies get their products out in the market through strategically planned digital channels. </p>
-      </div>
- </div>
- </>
+    <div className="column">
+        <img src="assets/header.png" alt="Header" className="partnerLogo" />      
+    </div>
+    <div className="column">
+        <h2>FULL-STACK WEB DEVELOPER AND DIGITAL STRATEGIST.</h2>
+        <button>PROJECTS</button>
+    </div>
+    </div>
+    </Header>
   )
 }
 
