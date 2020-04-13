@@ -1,82 +1,18 @@
-/* repsonsive rules */
-@media screen and (max-width: 700px) {
-
-}
-
 body {
-  color: black;
-  font-family: "Times New Roman", Times, serif;
+  max-width: 1160px;
+  margin: 0 auto;
 }
 
-.logo {
-  width: 5%;
-  height: auto;
-  padding: 10px;
-}
-
-.headerImage {
-  width: 100%;
-  height: auto;
-}
-
-h1 {
-  font-size: 28px;
-}
-
-h2 {
-  font-size: 18px;
-}
-/* subSection */
-.row {
+.title {
   text-align: center;
-  display: flex;
-  background-color: #F6F6F6;
-    }
-.rowLogo {
-  display: flex;
-    }
-
-.column {
-  width: 33.33%;
-  padding: 5px;
+  font-size: 32px;
 }
 
-  /* nav */
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  float: right;
-}
-
-nav li {
-  font-family: "Times New Roman", Times, serif;
-  float: left;
-  font-weight: bold;
-  font-size: 18px;
-}
-
-nav a {
-  text-decoration-color:black;
+.container {
   display: block;
-  padding: 8px;
 }
 
-nav a:active {
-  text-decoration-color: pink
-}
-
-.partnerLogo {
+.container > img {
   width: 20%;
-  height: auto;
-  padding: 10px;
 }
 
-.footer {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 12px;
-  position: relative;
-  background-color: whitesmoke;
-  text-align: center;
-  padding: 20px 20px;
-}

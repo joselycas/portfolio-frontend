@@ -5,7 +5,7 @@ const SubSection = () => {
   return(
     <section>
       <div className="subSection">
-        <h1><center>Areas of Focus</center></h1>
+        <h1 className= "title">Areas of Focus</h1>
         <div className="row">
           <div className="column">
             <h2>Ruby/Rails</h2><p>My projects are built with Ruby on Rails specifically for the backend of my applications. </p>
@@ -23,13 +23,13 @@ const SubSection = () => {
       </div>
       <div className="partnerLogo">
         <div>
-          <h1><center>Previous Clients and Employers</center></h1>
-          <div className="rowLogo">
-            <img src="assets/as.png" alt="Header" className="partnerLogo" />
-            <img src="assets/nvent.png" alt="Header" className="partnerLogo" />
-            <img src="assets/rakuten.png" alt="Header" className="partnerLogo" />
-            <img src="assets/tne.png" alt="Header" className="partnerLogo" />
-            <img src="assets/fitlife.png" alt="Header" className="partnerLogo" />
+          <h1 className= "title">Previous Clients and Employers</h1>
+          <div className="container">
+            <img src="assets/as.png" alt="american standard logo" />
+            <img src="assets/nvent.png" alt="nvent logo" />
+            <img src="assets/rakuten.png" alt="rakuten logo" />
+            <img src="assets/tne.png" alt="tne lab logo" />
+            <img src="assets/fitlife.png" alt="fit life logo" />
           </div>
         </div>
       </div>

@@ -3,15 +3,15 @@ import React from "react";
 
 const Header = () => {
   return(
-    <div className="row">
+    <header className="row">
       <div className="column">
-          <img src="assets/header.png" alt="Header" className="partnerLogo" />      
+          {/* <img src="assets/header.png" alt="Header" className="partnerLogo" />       */}
       </div>
       <div className="column">
-          <h2>FULL-STACK WEB DEVELOPER AND DIGITAL STRATEGIST.</h2>
+          <h2 className="title">FULL-STACK WEB DEVELOPER AND DIGITAL STRATEGIST.</h2>
           <button>PROJECTS</button>
       </div>
-    </div>
+    </header>
   )
 }
 
