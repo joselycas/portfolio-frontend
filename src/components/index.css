@@ -25,6 +25,15 @@ nav li a {
 /* Change the link color to #111 (black) on hover */
 
 
+header .row {
+  display: flex;
+  background-color: #111;
+}
+
+header .column {
+  background-color: #111;
+}
+
 .row {
   display: flex;
 }
@@ -35,11 +44,20 @@ img {
 
 .buttonHolder {
   text-align: center;
+  margin: 25px;
+}
+
+header .title {
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  font-family: Helvetica, arial, sans-serif;
 }
 
 .title {
   text-align: center;
   font-size: 32px;
+  font-family: Helvetica, arial, sans-serif;
 }
 
 .container {
