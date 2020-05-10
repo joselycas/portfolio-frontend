@@ -4,7 +4,8 @@ body {
 }
 
 .logo {
-  width: 75%
+  display: flex;
+  width: 5%
 }
 nav ul {
   list-style-type: none; 
@@ -42,7 +43,7 @@ header .column {
 }
 
 img {
-  width: 75%;
+  width: 70%;
 }
 
 .buttonHolder {
