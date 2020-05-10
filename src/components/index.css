@@ -3,6 +3,9 @@ body {
   margin: 0 auto;
 }
 
+.logo {
+  width: 75%
+}
 nav ul {
   list-style-type: none; 
   margin: 0;

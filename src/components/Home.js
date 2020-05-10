@@ -14,6 +14,7 @@ import './index.css';
 const Home = () => {
   return(
     <div>
+      <img src="assets/logo.png" alt="logo" className="logo" /> 
       <NavBar />
       <Header />
       <SubSection />
