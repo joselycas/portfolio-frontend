@@ -51,8 +51,11 @@ img {
   margin: 25px;
 }
 
+.titleColumn {
+  padding-right: 20px;
+}
+
 header .title {
-  text-align: center;
   font-size: 32px;
   color: white;
   font-family: Helvetica, arial, sans-serif;
